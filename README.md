@@ -6,7 +6,7 @@
 
 **Test · Inspect · Scaffold · Discover · Monitor**
 
-[![npm version](https://img.shields.io/npm/v/mcp-toolkit?style=flat-square&color=blue)](https://www.npmjs.com/package/mcp-toolkit)
+[![npm version](https://img.shields.io/npm/v/factspark-mcp-toolkit?style=flat-square&color=blue)](https://www.npmjs.com/package/factspark-mcp-toolkit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square)](https://nodejs.org)
 [![GitHub stars](https://img.shields.io/github/stars/factspark23-hash/mcp-toolkit?style=flat-square)](https://github.com/factspark23-hash/mcp-toolkit/stargazers)
@@ -31,7 +31,7 @@ Building MCP servers? You know the pain:
 
 ```bash
 # Install globally
-npm install -g mcp-toolkit
+npm install -g factspark-mcp-toolkit
 
 # Test any MCP server
 mcp-toolkit test npx @modelcontextprotocol/server-filesystem /tmp
@@ -225,7 +225,7 @@ mcp-toolkit test ./server.js && echo "PASS" || echo "FAIL"
 # GitHub Actions example
 - name: Test MCP Server
   run: |
-    npm install -g mcp-toolkit
+    npm install -g factspark-mcp-toolkit
     mcp-toolkit test ./dist/index.js
 ```
 

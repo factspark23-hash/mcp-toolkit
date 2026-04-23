@@ -1,7 +1,7 @@
 {
-  "name": "mcp-toolkit",
+  "name": "factspark-mcp-toolkit",
   "version": "1.0.0",
-  "description": "🔧 Swiss Army Knife for MCP Servers — Test, Debug, Scaffold & Discover Model Context Protocol servers",
+  "description": "\ud83d\udd27 Swiss Army Knife for MCP Servers \u2014 Test, Debug, Scaffold & Discover Model Context Protocol servers",
   "type": "module",
   "bin": {
     "mcp-toolkit": "./bin/cli.js",
@@ -39,7 +39,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/factspark23-hash/mcp-toolkit.git"
+    "url": "git+https://github.com/factspark23-hash/mcp-toolkit.git"
   },
   "bugs": {
     "url": "https://github.com/factspark23-hash/mcp-toolkit/issues"
