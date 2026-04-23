@@ -1,0 +1,72 @@
+{
+  "name": "mcp-toolkit",
+  "version": "1.0.0",
+  "description": "🔧 Swiss Army Knife for MCP Servers — Test, Debug, Scaffold & Discover Model Context Protocol servers",
+  "type": "module",
+  "bin": {
+    "mcp-toolkit": "./bin/cli.js",
+    "mcp": "./bin/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "claude",
+    "ai",
+    "llm",
+    "tool",
+    "server",
+    "testing",
+    "debugging",
+    "scaffold",
+    "cli"
+  ],
+  "author": "factspark23-hash",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/factspark23-hash/mcp-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/factspark23-hash/mcp-toolkit/issues"
+  },
+  "homepage": "https://github.com/factspark23-hash/mcp-toolkit#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "execa": "^9.5.2",
+    "inquirer": "^12.4.2",
+    "ora": "^8.2.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "eslint": "^9.24.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}
